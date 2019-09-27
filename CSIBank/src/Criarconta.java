@@ -15,6 +15,12 @@ public class Criarconta {
 		conta2.numero = 123729;
 		conta2.titular = "Matheus";
 			   
+		if(conta1 == conta2) {
+			System.out.println("Contas iguais");
+		} else {
+			System.out.println("Contas diferentes");
+		}
+		
 }
 
 
