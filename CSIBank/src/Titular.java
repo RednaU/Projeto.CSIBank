@@ -3,8 +3,17 @@ public class Titular {
 	private String nome;
 	private String email;
 	private String cpf;
+	private Endereco endereco;
 	
 	
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+
 	public String getNome() {
 		return nome;
 	}

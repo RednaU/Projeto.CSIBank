@@ -14,9 +14,13 @@ public class Criarconta {
 		conta2.numero = 123456;
 
 		Titular titular = new Titular();
-
-		
+		Endereco endereco = new Endereco();
+		endereco.setRua("Av. Rio Branco");
+		titular.setEndereco(endereco);
 		conta2.titular = titular;
+		System.out.println(conta2.getTitular().getEndereco().getRua());
+		
+		
 		
 		if(conta1 == conta2) {
 			System.out.println("Contas iguais!");
